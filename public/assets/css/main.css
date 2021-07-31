@@ -7,6 +7,7 @@
   --dark-blue: #0A0F21;
   --light-blue: #0A132E;
   --violet: #9E2ACA;
+  --white: #fff;
 
 }
 
@@ -282,6 +283,11 @@ button:focus {
   outline: none !important;
 }
 
+.number img{
+  width: 100px;
+  height: 100px;
+}
+
 
 .icon-close, .icon-check {
   color: #E91E63;
@@ -320,7 +326,7 @@ a.back-to-top i {
   line-height: 40px;
   color: #fff;
   background-color: var(--light-blue);
-  background-image: url(/public/assets/ico/vita.ico);
+  background-image: url(/public/assets/img/icons/vita.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1203,7 +1209,8 @@ button, select{
   font-weight: bold;
   line-height: 1.4rem;
   padding: 7px;
-  background-color: rgba(161, 206, 110, 0.9 );
+  background-color: var(--violet);
+  opacity: 0.9;
   border-radius: 8px;
   
  
@@ -1407,7 +1414,7 @@ button, select{
 }
 
 #copyright {
-  background: #222222;
+  background: var(--dark-blue);
   text-align: center;
 }
 
@@ -1422,7 +1429,7 @@ button, select{
 }
 
 #copyright p a:hover {
-  color: #E91E63;
+  color: var(--violet);
 }
 
 /* ==========================================================================
