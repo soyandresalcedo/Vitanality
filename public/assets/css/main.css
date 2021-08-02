@@ -37,14 +37,14 @@ h1, h2, h3,  {
   
   font-size: 36px;
   font-weight: 700;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 h4{
   display: block;
   text-align: center;
   font-size: 26px;
   font-weight: 700;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #000;
 }
 a {
@@ -326,7 +326,7 @@ a.back-to-top i {
   line-height: 40px;
   color: #fff;
   background-color: var(--light-blue);
-  background-image: url(/public/assets/img/icons/vita.png);
+  background-image: url(../img/icons/vita.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
