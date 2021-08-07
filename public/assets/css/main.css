@@ -84,6 +84,10 @@ ul li, ol li {
   height: 100px;
 }
 
+.logo__mobile{
+  display: none;
+}
+
 .hero-heading {
   font-size: 40px;
   font-weight: 700;
@@ -1446,6 +1450,10 @@ button, select{
   height: 850px;
   padding: 50px 0px 50px 50px;
 }
+
+
+
+
 .awardimg{
   width: 500px;
   height: auto;
@@ -1520,3 +1528,49 @@ button, select{
   margin: 15px 0px 50px 0;
 }
 
+/* Redes sociales */
+
+#rsociales {
+  position:fixed;
+  top:30%;
+  left:0rem;
+  z-index:300;
+  display:block;
+  width:65px;
+  /* background-color: var(--white); */
+
+.botones_rsociales {
+  position: relative;
+  width: 53px;
+  color: #FFFFFF;
+  text-align: left;
+  font-size: 0.9rem;
+  padding: 0.3125rem 0.3rem 0.3125rem 0.3rem;
+  border-top-left-radius: 0rem;
+  border-bottom-left-radius: 0rem;
+  display: inline-flex;
+  vertical-align: middle;
+  line-height: 1.9;
+}
+.boton_facebook {
+  width: 63px;
+  position: relative;
+  left: 0rem;
+  text-align: left;
+  background-color: transparent;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.botones_rsociales img {
+  margin-right: 0rem;
+  opacity: 1;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  
+}
